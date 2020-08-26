@@ -1,0 +1,39 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pursuit of happiness speech",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PursuitSpeechIntent",
+                    "slots": [],
+                    "samples": [
+                        "say pursuit speech",
+                        "tell me the pursuit speech",
+                        "tell me the pursuit of happiness speech",
+                        "tell me the speech",
+                        "open the speech",
+                        "say pursuit of happiness speech",
+                        "open pursuit of happiness speech"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+  }

@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Inspirate yourself with Will Smith's Pursuit of Happiness speech",
+          "examplePhrases": [
+            "Alexa open pursuit of happiness speech"
+          ],
+          "name": "pursuit-of-happiness-speech",
+          "description": "Pursuit of Happiness speech, by Will Smith."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:019315160667:function:ask-pursuit-of-happiness-s-default-default-1598473157092"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

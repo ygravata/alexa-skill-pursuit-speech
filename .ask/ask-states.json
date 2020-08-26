@@ -1,0 +1,30 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "iamRole": "arn:aws:iam::019315160667:role/ask-lambda-pursuit-of-happiness-speech-1598473155123",
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:019315160667:function:ask-pursuit-of-happiness-s-default-default-1598473157092",
+                "lastModified": "2020-08-26T22:42:16.780+0000",
+                "revisionId": "8533608d-1a68-4c91-8726-a7c5a0164e62"
+              }
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.90c8edf8-d221-4289-83ea-873116b32968",
+      "skillMetadata": {
+        "lastDeployHash": "JeLo07xF+hpAMnt5U1+ehSLWF7g="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "IEEPclNanrZ67wNiHYccXFeQJhI="
+        }
+      }
+    }
+  }
+}
