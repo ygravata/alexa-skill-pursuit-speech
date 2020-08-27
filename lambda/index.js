@@ -16,9 +16,11 @@ const LaunchRequestHandler = {
             .getResponse();
     }
 };
+// defined the intent of this specific skill, replacing HelloWorld for PursuitSpeech(1 of 3)
 const PursuitSpeechIntentHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            // defined the intent of this specific skill, replacing HelloWorld for PursuitSpeech(2 of 3)
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'PursuitSpeechIntent';
     },
     handle(handlerInput) {
@@ -109,6 +111,7 @@ const ErrorHandler = {
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
+        // defined the intent of this specific skill, replacing HelloWorld for PursuitSpeech(3 of 3)
         PursuitSpeechIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,

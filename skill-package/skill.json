@@ -3,6 +3,7 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
+          // edited to set pursuit of happiness skill details (summary, examplePhrases, description, name)
           "summary": "Inspirate yourself with Will Smith's Pursuit of Happiness speech",
           "examplePhrases": [
             "Alexa open pursuit of happiness speech"

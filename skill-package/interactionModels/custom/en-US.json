@@ -1,6 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
+            // added the skill invocation name, name and samples
             "invocationName": "pursuit of happiness speech",
             "intents": [
                 {
